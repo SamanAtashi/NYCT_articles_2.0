@@ -118,6 +118,20 @@ main > * {
 .heading {
 	border: 5px solid rgb(255, 0, 242);
 	height: 170px;
+	margin-top: 100px;
+}
+
+.heading h1 {
+	height: 96px;
+}
+
+.icons {
+	height: 32px;
+}
+
+.icons .single-icon {
+	width: 17px;
+	height: 17px;
 }
 
 /*
