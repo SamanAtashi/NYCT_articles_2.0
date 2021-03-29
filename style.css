@@ -160,6 +160,15 @@ main > * {
 	height: 135px;
 }
 
+.additional-name h5 {
+	border: 5px solid rgb(234, 0, 255);
+	height: 53px;
+	margin-bottom: 20px;
+}
+
+.sign-up-first {
+	height: 48px;
+}
 /*
 ? --------------------------------> plain texts
 */
