@@ -122,11 +122,15 @@ main > * {
 }
 
 .heading h1 {
+	border: 5px solid rgb(38, 0, 255);
 	height: 96px;
+	margin-bottom: 20px;
 }
 
 .icons {
+	border: 5px solid rgb(0, 255, 21);
 	height: 32px;
+	padding-top: 20px;
 }
 
 .icons .single-icon {
