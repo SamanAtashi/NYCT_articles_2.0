@@ -83,7 +83,52 @@ nav > * {
 main {
 	border: 5px solid green;
 	height: 10067px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
+
+/*
+? --------------------------------> heading and icons
+*/
+
+.heading {
+	border: 5px solid rgb(255, 0, 242);
+	width: 600px;
+	height: 170px;
+}
+
+/*
+? --------------------------------> 1st main picture
+*/
+.first-image {
+	border: 5px solid rgb(255, 0, 0);
+	width: 1200px;
+	height: 725px;
+}
+
+.first-image img {
+	width: inherit;
+}
+/*
+? --------------------------------> additional name part below 1st pic
+*/
+
+/*
+? --------------------------------> middle subscribe part
+*/
+
+/*
+? --------------------------------> 2nd main picture (detailed)
+*/
+
+/*
+? --------------------------------> 3rd main picture
+*/
+
+/*
+? --------------------------------> comments
+*/
 
 /* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
