@@ -1,3 +1,112 @@
-h1 {
-  color: red;
+/* libre franklin fonts */
+@import url('https://fonts.googleapis.com/css2!family=Libre+Franklin:wght@400;500;600;700;900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* tinos = imperial font */
+@import url('https://fonts.googleapis.com/css2!family=Tinos&display=swap');
+
+/* cheltenham font */
+@font-face {
+	font-family: 'cheltenham-italic-700';
+	src: url(font/cheltenham-italic-700.ttf);
 }
+
+@font-face {
+	font-family: 'cheltenham-normal-700';
+	src: url(font/cheltenham-normal-700.ttf);
+}
+
+@font-face {
+	font-family: 'cheltenham-normal-500';
+	src: url(font/cheltenham-normal-500.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	border: 2px solid red;
+	width: 100%;
+	height: 100%;
+}
+
+/*
+!                <<<<<<<<<<<<<<< NAVBAR >>>>>>>>>>>>>>>
+! <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
+*/
+
+nav {
+	border: 5px solid blue;
+	height: 43px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav > * {
+	height: 43px;
+	width: 196px;
+}
+
+/*
+? --------------------------------> Left
+*/
+
+.left-nav {
+	border: 2px solid orange;
+}
+
+/*
+? --------------------------------> Center
+*/
+
+.center-nav {
+	border: 2px solid orange;
+}
+
+/*
+? --------------------------------> Right
+*/
+
+.right-nav {
+	border: 2px solid orange;
+}
+
+/* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/*
+!                <<<<<<<<<<<<<<< Main >>>>>>>>>>>>>>>
+! <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
+*/
+
+main {
+	border: 5px solid green;
+	height: 10067px;
+}
+
+/* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/*
+!                <<<<<<<<<<<<<<< Between >>>>>>>>>>>>>>>
+! <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
+*/
+
+.between {
+	border: 5px solid rgb(128, 0, 122);
+	height: 1402px;
+}
+
+/* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/*
+!                <<<<<<<<<<<<<<< Footer >>>>>>>>>>>>>>>
+! <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
+*/
+
+footer {
+	border: 5px solid rgb(197, 100, 43);
+	height: 510px;
+}
+
+/* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
