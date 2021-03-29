@@ -88,13 +88,16 @@ main {
 	align-items: center;
 }
 
+main > * {
+	width: 600px;
+}
+
 /*
 ? --------------------------------> heading and icons
 */
 
 .heading {
 	border: 5px solid rgb(255, 0, 242);
-	width: 600px;
 	height: 170px;
 }
 
@@ -110,25 +113,74 @@ main {
 .first-image img {
 	width: inherit;
 }
+
 /*
 ? --------------------------------> additional name part below 1st pic
+*/
+
+.additional-name {
+	border: 5px solid rgb(4, 0, 255);
+	height: 135px;
+}
+
+/*
+? --------------------------------> plain texts
+*/
+
+/*
+? --------------------------------> articles
 */
 
 /*
 ? --------------------------------> middle subscribe part
 */
 
+.middle-subscribe {
+	border: 5px solid rgb(255, 72, 0);
+
+	height: 76px;
+}
+
 /*
 ? --------------------------------> 2nd main picture (detailed)
 */
+
+.detailed-pic {
+	border: 5px solid rgb(0, 255, 149);
+	width: 945px;
+	height: 722px;
+}
+
+/*
+? --------------------------------> embedded video
+*/
+.embed-video {
+	border: 5px solid rgb(0, 17, 255);
+	height: 406px;
+}
 
 /*
 ? --------------------------------> 3rd main picture
 */
 
+.third-image {
+	border: 5px solid rgb(255, 0, 234);
+	width: 720px;
+	height: 532px;
+}
+
+.third-image img {
+	width: inherit;
+}
+
 /*
 ? --------------------------------> comments
 */
+
+.comments {
+	border: 5px solid rgb(43, 255, 0);
+	height: 93px;
+}
 
 /* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
