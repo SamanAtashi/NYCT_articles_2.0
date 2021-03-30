@@ -508,8 +508,47 @@ p {
 */
 
 .comments {
-	border: 5px solid rgb(43, 255, 0);
-	height: 93px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.comments p {
+	color: rgb(102, 102, 102);
+	font-family: 'Libre Franklin', sans-serif;
+	margin-bottom: 10px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	height: 32px;
+}
+
+.comments a {
+	color: rgb(102, 102, 102);
+	text-decoration: underline;
+	font-family: 'Libre Franklin', sans-serif;
+	margin-bottom: 10px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.comments .icons {
+	padding: 0;
+	border: 0;
+}
+
+.comments .right-nav {
+	display: flex;
+	align-items: center;
+}
+
+.comments .right-nav button[type='button'] {
+	width: 310px;
+	height: 34px;
+	padding: 5px 0;
 }
 
 /* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
