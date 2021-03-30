@@ -384,16 +384,73 @@ p {
 */
 
 .detailed-pic {
-	border: 5px solid rgb(0, 255, 149);
 	width: 945px;
-	height: 722px;
+	height: 752px;
+	position: relative;
+	margin: 25px;
 }
 
-.detailed-pic img {
-	width: 100px;
-	height: 100px;
+.intro-root .detailed-pic-head h4 {
+	font-family: 'cheltenham-normal-700', Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
 }
 
+.detailed-pic-head p {
+	font-family: 'cheltenham-normal-500', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgb(102, 102, 102);
+	margin-bottom: 0;
+	margin-top: 2px;
+}
+
+.description {
+	/* border: 5px solid purple; */
+	width: 945px;
+	height: 576px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	z-index: 1;
+	position: absolute;
+}
+
+.description p {
+	width: 228px;
+	height: 120px;
+	font-family: sans-serif, Arial, Helvetica;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 17px;
+	margin-bottom: 0;
+}
+
+.description p span {
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 17px;
+	margin-right: 5px;
+}
+
+.second-image {
+	width: 945px;
+	margin: 15px 0;
+	position: relative;
+}
+
+.detailed-pic .second-image img {
+	height: 576px;
+}
+
+.detailed-pic .second-image hr {
+	width: 8%;
+	border: 0.5px solid rgb(26, 26, 26);
+	margin: 24px 0 11px 0;
+}
 /*
 ? --------------------------------> embedded video
 */
