@@ -40,13 +40,22 @@ img {
 	width: inherit;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 19px;
+}
+
 /*
 !                <<<<<<<<<<<<<<< NAVBAR >>>>>>>>>>>>>>>
 ! <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
 */
 
 nav {
-	border: 5px solid blue;
+	border-bottom: 1px solid rgb(0, 0, 0);
 	width: inherit;
 	height: 43px;
 	display: flex;
@@ -58,7 +67,7 @@ nav {
 
 nav > * {
 	height: 43px;
-	width: 196px;
+	width: 210px;
 }
 
 /*
@@ -66,13 +75,19 @@ nav > * {
 */
 
 .left-nav {
-	border: 2px solid orange;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.left-nav a {
-	border: 2px solid rgb(255, 0, 0);
+.menu,
+.search {
 	width: 17px;
 	height: 17px;
+}
+
+.cosmos {
+	width: 135px;
 }
 
 /*
@@ -80,7 +95,11 @@ nav > * {
 */
 
 .center-nav {
-	border: 2px solid orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 150px;
+	margin-left: 150px;
 }
 
 .center-nav a {
@@ -93,7 +112,36 @@ nav > * {
 */
 
 .right-nav {
-	border: 2px solid orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-nav button {
+	color: white;
+	background-color: rgb(86, 123, 149);
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 11px;
+	border-radius: 3px;
+	border-style: solid;
+}
+
+.right-nav button:hover {
+	background-color: rgb(50, 104, 145);
+	cursor: pointer;
+}
+
+.right-nav button:nth-child(1) {
+	width: 119.25px;
+	height: 32px;
+}
+
+.right-nav button:nth-child(2) {
+	width: 63.41px;
+	height: 32px;
+	margin-left: 8px;
 }
 
 /* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
