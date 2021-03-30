@@ -554,11 +554,6 @@ p {
 /* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /*
-!                <<<<<<<<<<<<<<< Between >>>>>>>>>>>>>>>
-! <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
-*/
-
-/*
 !                <<<<<<<<<<<<<<< Aside >>>>>>>>>>>>>>>
 ! <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
 */
@@ -612,11 +607,212 @@ p {
 
 /* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
+/*
+!                <<<<<<<<<<<<<<< Between >>>>>>>>>>>>>>>
+! <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
+*/
+/* 
 .between {
 	border: 5px solid rgb(128, 0, 122);
 	height: 1402px;
+} */
+
+.between {
+	width: 1200px;
+	height: 1370px;
+	display: flex;
+	justify-content: space-between;
 }
 
+.between h5 {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.between a {
+	text-decoration: none;
+	color: black;
+}
+
+.between .main-1 {
+	width: 852px;
+	height: 1360px;
+}
+
+.between .main-2 {
+	width: 318px;
+	height: 1360px;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-2-text {
+	width: 307px;
+	border-top: 1px solid rgb(206, 204, 204);
+	font-family: 'cheltenham-normal-500', Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.main-2-text a {
+	padding: 20px 0;
+}
+
+.between .main-1 .stack-1 {
+	height: 351px;
+}
+
+.between .main-1 .stack-2 {
+	height: 632px;
+}
+
+.between .main-1 .stack-3 {
+	height: 343px;
+}
+
+.between .box-1 {
+	border-top: 1px solid black;
+	height: 55px;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
+
+/* .between .main-1 .box-1 {
+	border-top: 1px solid black;
+	height: 55px;
+	display: flex;
+	align-items: center;
+} */
+
+/* .between .main-1 .box-1 h5 {
+	border: 1px solid black;
+} */
+
+.between .main-1 .box-2 {
+	height: 295px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.between .main-1 .bigger-box-2 {
+	height: 590px;
+}
+
+.between .main-1 .box-2 .small-box {
+	width: 272px;
+	height: 288px;
+	display: flex;
+	flex-direction: column;
+}
+
+.between .main-1 .box-2 .small-box .three-parts {
+	flex-grow: 1;
+}
+
+.three-parts p {
+	font-family: 'cheltenham-normal-500', Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.between .main-1 .stack-1 .box-2 .row-1-borders {
+	border: 1px solid rgb(160, 160, 160);
+	padding: 10px;
+	cursor: pointer;
+}
+
+.between .main-1 .stack-1 .box-2 .small-box p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 19px;
+}
+
+.between .main-1 .box-2 .small-box .row-1-last p {
+	color: #326891;
+	font-weight: 900;
+}
+
+.between .main-1 .stack-1 .box-2 .small-box p span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 15px;
+	display: block;
+}
+
+.between .main-1 .box-2 .small-box .text-under-pic {
+	height: 17px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.between .main-1 .box-2 .small-box .text-under-pic p {
+	color: rgb(153, 153, 153);
+	font-size: 11px;
+	padding-bottom: 5px;
+}
+
+.between .main-1 .box-2 .small-box .main-text {
+	height: 65px;
+}
+
+.between .main-1 .box-2 .small-box .main-text p {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.between .main-1 .box-2 .small-box .main-text p span {
+	font-size: 12px;
+	line-height: 16px;
+	margin-top: 5px;
+	color: rgb(153, 153, 153);
+	display: block;
+}
+
+.between .main-1 .box-2 .small-box .bigger-part {
+	flex-grow: 2;
+	height: 181px;
+}
+
+.box-2 .small-box .three-parts img {
+	width: 272px;
+	height: 190px;
+}
+
+.between .main-1 .box-2 .small-box .row-1-small-pic {
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.box-2 .small-box .row-1-small-pic img {
+	width: 90px;
+	height: 90px;
+}
+
+.between .main-1 .box-2 .small-box .row-1-small-pic button {
+	width: 35px;
+	height: 35px;
+	border: 1px solid black;
+	border-radius: 50%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box-2 .small-box .row-1-small-pic button img {
+	width: 32px;
+	height: 32px;
+}
 /* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /*
@@ -630,3 +826,165 @@ footer {
 }
 
 /* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/*
+?                <<<<<<<<<<<<<<< Footer >>>>>>>>>>>>>>>
+? <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
+*/
+
+footer {
+	width: 1200px;
+	height: 443px;
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footer div * a {
+	color: black;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+/*
+?--------------------------------> Head of footer
+*/
+.footer-head {
+	display: flex;
+	flex-basis: 100%;
+	justify-content: space-between;
+	padding: 10px 0;
+	margin-bottom: 10px;
+	height: 44px;
+	border-top: 4px double black;
+}
+
+footer .footer-head .footer-head-pic {
+	width: 184px;
+	height: 24px;
+}
+
+footer .footer-head a {
+	color: rgb(86, 123, 149);
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	font-weight: 400;
+}
+
+/*! this is annoying line  */
+
+.black-underline a:hover {
+	text-decoration: underline;
+}
+
+/*
+?--------------------------------> Lower part of footer
+*/
+.lower-footer {
+	flex-basis: 100%;
+	width: 1200px;
+	height: 66px;
+	margin: 15px 0;
+	padding: 15px 0;
+	border-top: 1px solid black;
+}
+
+.lower-footer ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.lower-footer .lower-footer-list li a {
+	font-size: 11px;
+}
+
+/*
+?--------------------------------> Main body of footer
+*/
+.middle-footer {
+	flex-basis: 100%;
+	display: flex;
+}
+
+/*
+Todo -------------> main-footer
+*/
+.middle-footer .main-footer {
+	display: flex;
+}
+
+dl {
+	width: 197px;
+	height: 385px;
+}
+
+dt {
+	width: 150px;
+	height: 25px;
+	font-weight: bold;
+}
+
+dd {
+	width: 150px;
+	height: 23px;
+}
+
+/*
+Todo -------------> side-footer
+*/
+.middle-footer .side-footer {
+	padding-left: 15px;
+	border-left: 1px solid gray;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 197px;
+	height: 385px;
+}
+
+.middle-footer .side-footer .normal-links a {
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 11px;
+	width: 150px;
+	height: 23px;
+	margin: 3px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.middle-footer .side-footer .bold-links h5 {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	height: 25px;
+}
+
+.middle-footer .side-footer .bold-links a {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 15px;
+	width: 197px;
+	height: 23px;
+	margin: 3px 0;
+	display: inline-block;
+	color: black;
+}
+
+.middle-footer .side-footer .bold-links a img {
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+}
+
+.middle-footer .side-footer .bold-links a:nth-child(1) {
+	font-weight: 600;
+	font-size: 13px;
+}
+
+/* ?<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
