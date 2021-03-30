@@ -229,12 +229,6 @@ main > * {
 	width: inherit;
 }
 
-/* .first-image {
-	width: 1200px;
-	height: 675px;
-	margin: 10px 100px 100px 100px;
-} */
-
 main figure {
 	font-family: 'Tinos', serif;
 	font-weight: 500;
@@ -258,18 +252,76 @@ main figure figcaption span {
 */
 
 .additional-name {
-	border: 5px solid rgb(4, 0, 255);
-	height: 135px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 10px;
+	line-height: 18px;
+	font-style: normal;
 }
 
-.additional-name h5 {
-	border: 5px solid rgb(234, 0, 255);
+.additional-name-head {
 	height: 53px;
-	margin-bottom: 20px;
+	margin-bottom: 35px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	font-style: normal;
+}
+
+.additional-name-head span {
+	display: block;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 16px;
+	margin-top: 15px;
 }
 
 .sign-up-first {
-	height: 48px;
+	border-top: 1px solid black;
+	padding-top: 12px;
+	margin: 25px 0 15px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sign-up-text {
+	width: 495px;
+	height: 41px;
+	font-family: 'Tinos', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 24px;
+}
+
+.sign-up-text span {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	font-style: normal;
+}
+
+.sign-up-btn {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	font-style: normal;
+	border: 1px solid black;
+	border-radius: 2px;
+	width: 80px;
+	height: 32px;
+	padding: 6px 12px 4px 12px;
+	background-color: white;
+	color: black;
+}
+
+.sign-up-btn:hover {
+	background-color: black;
+	color: white;
 }
 
 /*
