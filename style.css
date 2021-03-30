@@ -220,13 +220,37 @@ main > * {
 ? --------------------------------> 1st main picture
 */
 .first-image {
-	border: 5px solid rgb(255, 0, 0);
 	width: 1200px;
 	height: 725px;
+	margin-bottom: 43px;
 }
 
 .first-image img {
 	width: inherit;
+}
+
+/* .first-image {
+	width: 1200px;
+	height: 675px;
+	margin: 10px 100px 100px 100px;
+} */
+
+main figure {
+	font-family: 'Tinos', serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgb(102, 102, 102);
+}
+
+main figure figcaption {
+	width: 850px;
+	margin: 4px 0;
+}
+
+main figure figcaption span {
+	font-size: 13px;
+	color: #888;
 }
 
 /*
