@@ -451,13 +451,42 @@ p {
 	border: 0.5px solid rgb(26, 26, 26);
 	margin: 24px 0 11px 0;
 }
+
 /*
 ? --------------------------------> embedded video
 */
+/* 
+.embed-video {
+	height: 406px;
+} */
 
 .embed-video {
-	border: 5px solid rgb(0, 17, 255);
-	height: 406px;
+	margin: 30px 0;
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+}
+
+.embed-video iframe {
+	width: 600px;
+	height: 338px;
+	border: 0;
+}
+
+.embed-video p {
+	width: 497px;
+	padding-top: 10px;
+	font-family: 'Tinos', serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgb(102, 102, 102);
+}
+
+.embed-video p span {
+	font-size: 13px;
+	line-height: 5px;
+	color: #888;
 }
 
 /*
