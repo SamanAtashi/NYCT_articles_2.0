@@ -27,7 +27,6 @@
 }
 
 body {
-	border: 2px solid red;
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -152,8 +151,7 @@ nav > * {
 */
 
 main {
-	border: 5px solid green;
-	height: 10067px;
+	height: 9535px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -554,65 +552,11 @@ p {
 /* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /*
-!                <<<<<<<<<<<<<<< Aside >>>>>>>>>>>>>>>
-! <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
-*/
-.aside {
-	width: 230px;
-	height: 321px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	position: absolute;
-	left: 1350px;
-	top: 2200px;
-}
-
-.aside h5 {
-	font-family: 'Libre Franklin', sans-serif;
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 14px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid black;
-	margin-bottom: 2px;
-}
-
-.aside .three-picks {
-	width: 210px;
-	height: 78px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.aside .three-picks img {
-	width: 75px;
-	margin-right: 12px;
-}
-
-.aside .three-picks a {
-	width: 125px;
-	height: 68px;
-	color: black;
-	text-decoration: none;
-	font-family: 'cheltenham-normal-500', Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	line-height: 17px;
-}
-
-.black-underline a:hover {
-	text-decoration: underline;
-}
-
-/* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-
-/*
 !                <<<<<<<<<<<<<<< Between >>>>>>>>>>>>>>>
 ! <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
 */
-/* 
-.between {
+
+/* .between {
 	border: 5px solid rgb(128, 0, 122);
 	height: 1402px;
 } */
@@ -813,6 +757,61 @@ p {
 	width: 32px;
 	height: 32px;
 }
+
+/* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/*
+!                <<<<<<<<<<<<<<< Aside >>>>>>>>>>>>>>>
+! <<<<<<<<<<<<<<<                                      >>>>>>>>>>>>>>>>>
+*/
+.aside {
+	width: 230px;
+	height: 321px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: absolute;
+	left: 1350px;
+	top: 2200px;
+}
+
+.aside h5 {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 14px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+	margin-bottom: 2px;
+}
+
+.aside .three-picks {
+	width: 210px;
+	height: 78px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.aside .three-picks img {
+	width: 75px;
+	margin-right: 12px;
+}
+
+.aside .three-picks a {
+	width: 125px;
+	height: 68px;
+	color: black;
+	text-decoration: none;
+	font-family: 'cheltenham-normal-500', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.black-underline a:hover {
+	text-decoration: underline;
+}
+
 /* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /*
@@ -834,7 +833,7 @@ footer {
 	justify-content: space-between;
 }
 
-.footer div * a {
+.footer * a {
 	color: black;
 	text-decoration: none;
 	font-size: 14px;
@@ -853,12 +852,12 @@ footer {
 	border-top: 4px double black;
 }
 
-footer .footer-head .footer-head-pic {
+.footer-head .footer-head-pic {
 	width: 184px;
 	height: 24px;
 }
 
-footer .footer-head a {
+.footer-head a {
 	color: rgb(86, 123, 149);
 	font-family: 'Libre Franklin', sans-serif;
 	font-size: 11px;
@@ -868,30 +867,9 @@ footer .footer-head a {
 
 /*! this is annoying line  */
 
-.black-underline a:hover {
+/* .black-underline a:hover {
 	text-decoration: underline;
-}
-
-/*
-?--------------------------------> Lower part of footer
-*/
-.lower-footer {
-	flex-basis: 100%;
-	width: 1200px;
-	height: 66px;
-	margin: 15px 0;
-	padding: 15px 0;
-	border-top: 1px solid black;
-}
-
-.lower-footer ul {
-	display: flex;
-	justify-content: space-between;
-}
-
-.lower-footer .lower-footer-list li a {
-	font-size: 11px;
-}
+} */
 
 /*
 ?--------------------------------> Main body of footer
@@ -899,6 +877,13 @@ footer .footer-head a {
 .middle-footer {
 	flex-basis: 100%;
 	display: flex;
+}
+
+.middle-footer * {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
 }
 
 /*
@@ -913,10 +898,14 @@ dl {
 	height: 385px;
 }
 
-dt {
+.dt {
 	width: 150px;
 	height: 25px;
 	font-weight: bold;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 14px;
 }
 
 dd {
@@ -976,6 +965,34 @@ Todo -------------> side-footer
 .middle-footer .side-footer .bold-links a:nth-child(1) {
 	font-weight: 600;
 	font-size: 13px;
+}
+
+/*
+?--------------------------------> Lower part of footer
+*/
+.lower-footer {
+	flex-basis: 100%;
+	width: 1200px;
+	height: 66px;
+	margin: 15px 0;
+	padding: 15px 0;
+	border-top: 1px solid black;
+}
+
+.lower-footer ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.lower-footer ul {
+	list-style: none;
+}
+.lower-footer .lower-footer-list li a {
+	color: rgb(102, 102, 102);
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 11px;
 }
 
 /* !<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
