@@ -33,7 +33,19 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
+
+/*
+body {
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+} */
 
 img {
   width: inherit;
@@ -70,7 +82,7 @@ a {
 
 nav {
   border-bottom: 1px solid rgb(0, 0, 0);
-  width: inherit;
+  width: 100%;
   height: 43px;
   display: flex;
   justify-content: space-around;
@@ -594,7 +606,6 @@ h4 {
 */
 
 /* .between {
-	border: 5px solid rgb(128, 0, 122);
 	height: 1402px;
 } */
 
@@ -838,7 +849,6 @@ h4 {
 */
 
 /* footer {
-	border: 5px solid rgb(197, 100, 43);
 	height: 510px;
 } */
 
@@ -898,8 +908,8 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  left: 1350px;
-  top: 2200px;
+  left: 650px;
+  top: 140px;
 }
 
 .aside h5 {
