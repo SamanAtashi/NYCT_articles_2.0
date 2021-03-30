@@ -345,8 +345,38 @@ p {
 */
 
 .middle-subscribe {
-	border: 5px solid rgb(255, 72, 0);
+	width: 600px;
 	height: 76px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 25px 0;
+}
+
+.middle-subscribe p {
+	margin: 0;
+	padding: 0;
+}
+
+.middle-subscribe a {
+	margin: 0;
+	color: #326891;
+	font-weight: 900;
+	z-index: 1;
+}
+
+.middle-subscribe .double-border {
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	padding: 0;
+	margin: 0;
+	width: 76px;
+	height: 80px;
+	position: absolute;
+	top: 0;
+	left: 264px;
 }
 
 /*
