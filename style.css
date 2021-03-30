@@ -327,6 +327,14 @@ main figure figcaption span {
 /*
 ? --------------------------------> plain texts
 */
+p {
+	color: rgb(45, 45, 45);
+	font-family: 'Tinos', serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 15px;
+}
 
 /*
 ? --------------------------------> articles
