@@ -19,7 +19,7 @@ To get a local copy up and running:
 
 ## Live Demo
 
-[Live Demo Link](https://samanatashi.github.io/PROJECT-NYCT/)
+[Live Demo Link](https://samanatashi.github.io/NYCT_articles_2.0/)
 
 ## 👤 **Saman**
 
