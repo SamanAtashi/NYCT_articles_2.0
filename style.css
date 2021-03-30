@@ -455,8 +455,8 @@ p {
 /*
 ? --------------------------------> embedded video
 */
-/* 
-.embed-video {
+
+/* .embed-video {
 	height: 406px;
 } */
 
@@ -494,13 +494,13 @@ p {
 */
 
 .third-image {
-	border: 5px solid rgb(255, 0, 234);
 	width: 720px;
-	height: 532px;
+	height: 481px;
+	margin: 30px 100px 80px 100px;
 }
 
-.third-image img {
-	width: inherit;
+.third-image figcaption {
+	width: 700px;
 }
 
 /*
