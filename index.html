@@ -777,6 +777,7 @@
 					“you wind up at inflation.”
 				</p>
 			</article>
+			<!-- ------------comments and form------------ -->
 			<div class="comments">
 				<p>
 					A version of this article appears in
@@ -789,9 +790,125 @@
 					<a href="#">Subscribe</a>
 				</p>
 				<div class="right-nav">
-					<button type="button">
-						READ 615 COMMENTS
+					<button type="button" id="form-btn">
+						Leave Comment
 					</button>
+					<div
+						id="form-container-id"
+						class="form-container-class"
+					>
+						<div class="form-content">
+							<span
+								class="close"
+							></span>
+							<form
+								class="actual-form"
+								action="/"
+								method="POST"
+							>
+								<ul>
+									<li>
+										<label
+											for="name"
+											>Name:</label
+										><input
+											maxlength="20"
+											size="35"
+											type="text"
+											id="name"
+											class=""
+											name="user_name"
+											required
+										/>
+									</li>
+									<li>
+										<label
+											for="email"
+											>Email:</label
+										><input
+											maxlength="20"
+											size="35"
+											type="email"
+											id="email"
+											class=""
+											name="user_email"
+											required
+										/>
+									</li>
+									<li>
+										<label
+											for="comment"
+											>comment:</label
+										><textarea
+											maxlength="250"
+											name="comment"
+											id="comment"
+											cols="30"
+											rows="10"
+											required
+											placeholder="Type your comment here…"
+										></textarea>
+									</li>
+									<li>
+										<label
+											>What
+											is
+											your
+											overall
+											opinion
+											about
+											this
+											article?</label
+										><label
+											class="pick-one"
+											>Positive<input
+												type="radio"
+												name="pick-one"
+												checked
+											/>
+										</label>
+										<label
+											class="pick-one"
+											>Negative<input
+												type="radio"
+												name="pick-one"
+											/>
+										</label>
+										<label
+											class="pick-one"
+											>Neutral<input
+												type="radio"
+												name="pick-one"
+											/>
+										</label>
+									</li>
+									<li>
+										<label
+											>I
+											want
+											to
+											subscribe
+											to
+											the
+											newsletter
+											<input
+												type="checkbox"
+												name="checkbox"
+										/></label>
+									</li>
+									<li>
+										<input
+											type="button"
+											id="submit-btn"
+											class=""
+											name="submit-btn"
+											value="Submit"
+										/>
+									</li>
+								</ul>
+							</form>
+						</div>
+					</div>
 				</div>
 				<div class="icons">
 					<button
